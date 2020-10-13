@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1">
+        <item
+            android:id="@+id/pdf_viewer"
+            android:title="PDF Layout"
+            android:icon="@drawable/ic_picture_as_pdf_black_24dp"/>
+        />
+        <item
+            android:id="@+id/dashboard"
+            android:title="User Dashboard"
+            android:icon="@drawable/ic_dashboard_black_24dp"/>
+        />
+        <item
+            android:id="@+id/share"
+            android:title="Share"
+            android:icon="@drawable/ic_share_black_24dp"
+            ></item>
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group2">
+        <item
+            android:id="@+id/feedback"
+            android:title="Give Feedback"
+            android:icon="@drawable/ic_feedback_black_24dp"/>
+        <item
+            android:id="@+id/about_us"
+            android:title="About Us"
+            android:icon="@drawable/ic_insert_comment_black_24dp"/>
+        <item
+            android:id="@+id/sign_out"
+            android:title="Sign Out"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"/>
+
+    </group>
+    />
+</menu>
